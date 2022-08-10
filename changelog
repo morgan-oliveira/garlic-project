@@ -1,0 +1,7 @@
+[08/08/2022] garlic 0.2
+-Added functionality to "Login" button - now it properly works.
+-Added an "OK" button after autentication, which now closes properly.
+-Added ADMIN login autentication
+
+[07/08/2022] garlic 0.1
+-Added basic UI for admin login.
