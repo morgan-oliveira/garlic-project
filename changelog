@@ -1,3 +1,12 @@
+[10/08/2022] garlic 0.3
+-Cleaner code
+-Now ADMIN login sucessfully brings new window
+-Added new buttons "Cadastro de conveniado" and "Cadastro de funcionário" which needs database implementation to properly work
+-Added new "garlic-logo.png" file, which is the software logo (if this image can't be used for personal use, please contact me)
+-Added 'Pillow' support into the project
+-Fixed a problem where the main window doesn't resize properly
+-Added new 'garlic_admin' script which handles the administrator rights after autentication
+
 [08/08/2022] garlic 0.2
 -Added functionality to "Login" button - now it properly works.
 -Added an "OK" button after autentication, which now closes properly.
