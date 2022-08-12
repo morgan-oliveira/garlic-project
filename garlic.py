@@ -1,6 +1,6 @@
 import tkinter as tk
 from PIL import ImageTk, Image
-from garlic_admin import call_admin
+from garlic_admin import call_admin, call_func
 #import time
 
 # creates main window
@@ -55,6 +55,7 @@ def loginWindowValidate():
     # boolvar assumes whatever validate() returns and checks if login is sucessful
     
     if boolvar:
+    
         window.destroy()
         loginSucessMessage = tk.Label(loginWindow, text="Login realizado com sucesso!").pack()
         loginSucessButton = tk.Button(loginWindow, text="OK", command=loginWindow.destroy).pack()
