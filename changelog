@@ -1,4 +1,4 @@
-[11/08/2022] garlic 0.31
+[13/08/2022] garlic 0.31
 -Added new files "garlic_db" and "garlic-db.db"
 -New sqlite3 import keyword added to "garlic_db" - which is the database for the application
 -Added basic database set-up
