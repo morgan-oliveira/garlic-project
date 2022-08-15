@@ -1,3 +1,10 @@
+[15/08/2022] garlic 0.4a
+-Database ongoing
+-Added new dialogue boxes for registration (needs authentication)
+-Moved database set-up from "garlic_db" to "garlic_admin" for simplification
+-Added new Widgets for registration 
+(if someone tries to pull this code, it won't run just yet. I need to figure out a way to properly use entry variables from tkinter)
+
 [13/08/2022] garlic 0.31
 -Added new files "garlic_db" and "garlic-db.db"
 -New sqlite3 import keyword added to "garlic_db" - which is the database for the application
@@ -10,11 +17,11 @@
 -Added new "garlic-logo.png" file, which is the software logo (if this image can't be used for personal use, please contact me)
 -Added 'Pillow' support into the project
 -Fixed a problem where the main window doesn't resize properly
--Added new 'garlic_admin' script which handles the administrator rights after autentication
+-Added new 'garlic_admin' script which handles the administrator rights after authentication
 
 [08/08/2022] garlic 0.2
 -Added functionality to "Login" button - now it properly works.
--Added an "OK" button after autentication, which now closes properly.
+-Added an "OK" button after authentication, which now closes properly.
 -Added ADMIN login autentication
 
 [07/08/2022] garlic 0.1
